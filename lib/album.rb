@@ -13,7 +13,7 @@ class Album
   end
 
   def self.all
-    @@albums.values()
+    @@albums.values().sort { |a, b| a.name.downcase <=> b.name.downcase}
   end
 
   def save
