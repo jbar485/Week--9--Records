@@ -1,0 +1,25 @@
+<h1>Album Name: Yellow Submarine</h1>
+<h4>Album Artist: </h4>
+<h4>Album Year: </h4>
+<h4>Album Genre: </h4>
+
+<h3>Album Songs</h3>
+
+  
+    <ul>
+      
+    </ul>
+  
+
+<h4>Add a song:</h4>
+
+<form action="/albums/2/songs" method="post">
+  <div class="form-group">
+    <label for="song_name">Song name</label>
+    <input id="song_name" name="song_name" class="form-control" type="text">
+  </div>
+  <button type="submit" class="btn">Add song</button>
+</form>
+
+<p><a href="/albums/2/edit">Edit album</a></p>
+<a href="/albums">Return to album list</a>
